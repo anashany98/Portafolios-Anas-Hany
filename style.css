@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header y Hero */
+/* Header / Hero */
 header {
   background: #0d2538;
   color: #fff;
@@ -23,15 +23,18 @@ header {
 header h1 {
   font-size: 2.8em;
   margin-bottom: 10px;
+  animation: fadeInDown 1s ease;
 }
 
 header p {
   font-size: 1.2em;
   margin-bottom: 20px;
+  animation: fadeIn 1s ease 0.5s;
 }
 
 nav {
   margin-top: 15px;
+  animation: fadeIn 1s ease 1s;
 }
 
 nav a {
@@ -134,4 +137,15 @@ footer {
   text-align: center;
   padding: 25px 0;
   margin-top: 40px;
+}
+
+/* Animaciones */
+@keyframes fadeInDown {
+  from {opacity: 0; transform: translateY(-20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
