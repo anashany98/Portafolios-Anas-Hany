@@ -3,69 +3,88 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio - Anas Hany Lahroudy</title>
+  <title>Anas Hany Lahroudy - Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1>Hola, soy <span>[Tu Nombre]</span></h1>
-      <p>Programador y especialista en bases de datos con experiencia en Oracle, PL/SQL y desarrollo de aplicaciones.</p>
-      <a href="#proyectos" class="btn">Ver Proyectos</a>
+  <!-- Header / Hero -->
+  <header>
+    <div class="hero">
+      <h1>Anas Hany Lahroudy</h1>
+      <p>Desarrollador Full Stack & Diseñador Web</p>
+      <a href="#contacto" class="btn-primary">Contáctame</a>
     </div>
-  </header>
-
-  <nav class="navbar">
-    <div class="container">
+    <nav>
       <a href="#sobre-mi">Sobre mí</a>
       <a href="#proyectos">Proyectos</a>
+      <a href="#habilidades">Habilidades</a>
       <a href="#contacto">Contacto</a>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
-  <section id="sobre-mi" class="section">
-    <div class="container">
-      <h2>Sobre mí</h2>
-      <p>
-        Soy desarrollador con experiencia en administración de bases de datos Oracle, 
-        desarrollo de formularios PL/SQL y automatización de procesos. 
-        Me apasiona crear soluciones eficientes y mejorar sistemas existentes.
-      </p>
-    </div>
+  <!-- Sobre mí -->
+  <section id="sobre-mi">
+    <h2>Sobre mí</h2>
+    <p>Soy un programador con experiencia en desarrollo web y de software, especializado en tecnologías como PHP (Laravel), .NET y C#. Me apasiona crear soluciones eficientes y de alto rendimiento. Poseo amplios conocimientos en bases de datos como Oracle y SQL Server.</p>
+    <p>He trabajado en mantenimiento de bases de datos, desarrollo backend, APIs y diseño web, siempre enfocado en resultados y optimización.</p>
   </section>
 
-  <section id="proyectos" class="section section-alt">
-    <div class="container">
-      <h2>Proyectos</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>Gestión BBDD Contables</h3>
-          <p>Creación y mantenimiento de formularios y procesos en Oracle.</p>
-        </div>
-        <div class="project-card">
-          <h3>Automatización PL/SQL</h3>
-          <p>Scripts de optimización y generación de reportes automáticos.</p>
-        </div>
-        <div class="project-card">
-          <h3>Proyectos Personales</h3>
-          <p>Ejemplos de desarrollo y programación personal, disponibles en GitHub.</p>
-        </div>
+  <!-- Proyectos -->
+  <section id="proyectos">
+    <h2>Proyectos Destacados</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Mantenimiento y Optimización de Bases de Datos</h3>
+        <p>PL/SQL en RIUSA II SA: mantenimiento de Oracle, Oracle Forms y Reports, optimización de consultas y procedimientos.</p>
+        <a href="https://github.com/anashany98/proyecto1" target="_blank" class="btn-secondary">Ver Código</a>
+      </div>
+      <div class="project-card">
+        <h3>Desarrollo Backend y APIs</h3>
+        <p>Back End en JUNIPER CONSULTING SL: VB.NET, C#, JQuery, JS, SQL Server y creación de WebServices y APIs.</p>
+        <a href="https://github.com/anashany98/proyecto2" target="_blank" class="btn-secondary">Ver Código</a>
+      </div>
+      <div class="project-card">
+        <h3>Programación de Software y Diseño Web</h3>
+        <p>ITCM SOLUTIONS: .NET, diseño web, SEO y Ads para sector sanitario.</p>
+        <a href="https://github.com/anashany98/proyecto3" target="_blank" class="btn-secondary">Ver Código</a>
       </div>
     </div>
   </section>
 
-  <section id="contacto" class="section">
-    <div class="container">
-      <h2>Contacto</h2>
-      <p>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/tuusuario" target="_blank">linkedin.com/in/tuusuario</a></p>
-      <p>GitHub: <a href="https://github.com/tuusuario" target="_blank">github.com/tuusuario</a></p>
-    </div>
+  <!-- Habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades Técnicas</h2>
+    <ul class="skills">
+      <li>PHP (Laravel)</li>
+      <li>.NET / C# / VB.NET</li>
+      <li>JavaScript / JQuery</li>
+      <li>SQL Server / Oracle</li>
+      <li>SEO / Ads</li>
+      <li>Microsoft Azure</li>
+    </ul>
+
+    <h3>Idiomas</h3>
+    <ul class="languages">
+      <li>Español: Nativo</li>
+      <li>Árabe: Nativo</li>
+      <li>Catalán: Alto</li>
+      <li>Inglés: Medio</li>
+    </ul>
   </section>
 
-  <footer class="footer">
-    <p>© 2025 [Tu Nombre] - Portafolio Personal</p>
+  <!-- Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: <a href="mailto:anashanyah@gmail.com">anashanyah@gmail.com</a></p>
+    <p>Teléfono: 722 242 968</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/anas-hany-" target="_blank">Anas Hany</a></p>
+    <a href="mailto:anashanyah@gmail.com" class="btn-primary">Enviar Correo</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Anas Hany Lahroudy. Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
